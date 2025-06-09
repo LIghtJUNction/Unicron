@@ -1,0 +1,7 @@
+id = "Unicrom"
+name = "Unicrom"
+version = "v1.0.1-eb991ed"
+versionCode = "2025060901"
+author = "LIghtJUNction"
+description = "RMM项目 Unicrom"
+updateJson = "https://raw.githubusercontent.com/LIghtJUNction/Unicrom/main/update.json"

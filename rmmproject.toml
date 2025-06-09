@@ -1,0 +1,33 @@
+id = "Unicrom"
+name = "Unicrom"
+description = "RMM项目 Unicrom"
+requires_rmm = ">=0.1.7"
+versionCode = "C:\\Users\\light\\Documents\\GitHub\\Unicrom"
+updateJson = "https://raw.githubusercontent.com/LIghtJUNction/Unicrom/main/update.json"
+readme = "README.MD"
+changelog = "CHANGELOG.MD"
+license = "LICENSE"
+[[dependencies]]
+"dep?" = "?version"
+
+[[authors]]
+name = "LIghtJUNction"
+email = "email"
+
+[[scripts]]
+build = "rmm build"
+
+[urls]
+github = "https://github.com/LIghtJUNction/Unicrom"
+
+[build]
+prebuild = "Rmake"
+build = "default"
+postbuild = "Rmake"
+
+[git]
+git_root = "C:\\Users\\light\\Documents\\GitHub\\Unicrom"
+remote_url = "https://github.com/LIghtJUNction/Unicrom.git"
+username = "LIghtJUNction"
+repo_name = "Unicrom"
+is_in_repo_root = "True"
